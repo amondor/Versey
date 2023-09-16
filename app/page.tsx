@@ -22,7 +22,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="relative flex place-items-center ">
+      <div className="relative flex place-items-center  ">
      
       <CocktailGenerator />
         
@@ -30,7 +30,7 @@ export default function Home() {
       </div>
 
       <div className=" flex flex-row items-center 
-      lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-2 lg:text-center justify-center space-x-6 ">
+      lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-2 lg:text-center justify-center space-x-6 mb-32">
         
         <a
           href="https://github.com/amondor"
