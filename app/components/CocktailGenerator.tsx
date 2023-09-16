@@ -30,7 +30,7 @@ return (
       <button className="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 mb-8 border border-gray-400 rounded shadow"onClick={fetchRandomCocktail}>
          Generate Cocktail 🍹</button>
       {cocktail && (
-        <div className=' border-white border text-center w-96 py-2 px-4 '>
+        <div className=' border-white border text-center rounded w-96 py-2 px-4 '>
           <h2 className='text-2xl font-bold mb-5'>{cocktail.strDrink}</h2>
           <h3>Ingredients:</h3>
           <ul>
@@ -40,7 +40,7 @@ return (
             {/* Add more ingredients as needed */}
           </ul>
           
-          <p className='mt-4 w-fit bg-white text-black text-left'>{cocktail.strInstructions}</p>
+          <p className=' p-4 rounded mt-4 mb-4 w-fit bg-white text-black text-left'>{cocktail.strInstructions}</p>
         </div>
       )}
     </div>
